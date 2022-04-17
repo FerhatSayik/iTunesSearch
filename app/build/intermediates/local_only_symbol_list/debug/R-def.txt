@@ -9,6 +9,7 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id image
 id recyclerView
 id srchButton
 id text

@@ -47,10 +47,8 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         listItems=new ArrayList<>();
 
-
         final EditText textView=(EditText)findViewById(R.id.text);
         searchBtn=findViewById(R.id.srchButton);
-
 
         RequestQueue queue= Volley.newRequestQueue(this);
         searchBtn.setOnClickListener(new View.OnClickListener() {
@@ -65,12 +63,11 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this,"Please write something",Toast.LENGTH_LONG).show();
                 }
                 else{
-                    String url="https://itunes.apple.com/search?term="+editTextSearch+"&entity=musicTrack";
+                    String url="https://itunes.apple.com/search?term="+editTextSearch+"&entity=movie";
 
                     ProgressDialog progressDialog=new ProgressDialog(MainActivity.this);
                     progressDialog.setMessage("Loading data...");
                     progressDialog.show();
-
 
                     StringRequest stringRequest=new StringRequest(Request.Method.GET, url,
                             new Response.Listener<String>() {
@@ -78,15 +75,15 @@ public class MainActivity extends AppCompatActivity {
                                 public void onResponse(String response) {
                                     progressDialog.dismiss();
                                     try {
-
                                         JSONObject jsonObject = new JSONObject(response);
                                         JSONArray jsonArray = jsonObject.getJSONArray("results");
                                         Log.i("result", jsonArray.toString());
                                         for (int i = 0; i < jsonArray.length(); i++) {
                                             JSONObject o = jsonArray.getJSONObject(i);
                                             ListItem item = new ListItem(
-                                                    o.getString("artistName"),
-                                                    o.getString("trackName")
+                                                    o.getString("trackName"),
+                                                    o.getString("kind"),
+                                                    o.getString("artworkUrl100")
                                             );
                                             listItems.add(item);
                                         }
@@ -95,7 +92,6 @@ public class MainActivity extends AppCompatActivity {
 
                                     } catch (JSONException e) {
                                         e.printStackTrace();
-
                                     }
                                 }
                             }, new Response.ErrorListener() {
@@ -105,21 +101,14 @@ public class MainActivity extends AppCompatActivity {
                             textView.setText("error");
                         }
                     });
-
-
                     stringRequest.setTag(TAG);
-
                     queue.add(stringRequest);
-
                 }
                 hideKeybord();
             }
         });
-
-
         if(queue!=null) {
             queue.cancelAll(TAG);
-
         }
 
     }
