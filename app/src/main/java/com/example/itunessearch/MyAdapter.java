@@ -1,14 +1,17 @@
 package com.example.itunessearch;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
+import android.text.Layout;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -41,7 +44,21 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         ListItem listItem=listItems.get(position);
         holder.textViewHead.setText("Movie Name: "+listItem.getHead());
         holder.textViewDesc.setText("Kind: "+listItem.getDesc());
-        new DownloadImageFromInternet(holder.img).execute(listItem.getİmg());
+        new DownloadImageFromInternet(holder.img).execute(listItem.getImg());
+
+        holder.itemLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context,ActivityItem.class);
+                intent.putExtra("imageURL",listItem.getImg());
+                intent.putExtra("itemHead",listItem.getHead());
+                intent.putExtra("itemDesc",listItem.getDesc());
+                intent.putExtra("longDesc",listItem.getLongDesc());
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                context.startActivities(new Intent[]{intent});
+
+            }
+        });
     }
 
     @Override
@@ -50,9 +67,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
-        public TextView textViewHead;
-        public TextView textViewDesc;
+        public TextView textViewHead,textViewDesc;
         public ImageView img;
+        public LinearLayout itemLayout;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -60,6 +77,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
             textViewHead=(TextView)itemView.findViewById(R.id.textViewHead);
             textViewDesc=(TextView)itemView.findViewById(R.id.textViewDesc);
             img=(ImageView) itemView.findViewById(R.id.image);
+            itemLayout = (LinearLayout) itemView.findViewById(R.id.itemLayout);
         }
     }
     private class DownloadImageFromInternet extends AsyncTask<String, Void, Bitmap> {

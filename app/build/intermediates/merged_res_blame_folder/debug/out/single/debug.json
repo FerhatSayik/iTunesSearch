@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Jarvis\\AndroidStudioProjects\\iTunesSearch\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_item.xml.flat",
+        "source": "C:\\Users\\Jarvis\\AndroidStudioProjects\\iTunesSearch\\app\\src\\main\\res\\layout\\activity_item.xml"
+    },
+    {
         "merged": "C:\\Users\\Jarvis\\AndroidStudioProjects\\iTunesSearch\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Jarvis\\AndroidStudioProjects\\iTunesSearch\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },

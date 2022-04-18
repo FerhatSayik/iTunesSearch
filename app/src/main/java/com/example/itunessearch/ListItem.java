@@ -1,14 +1,13 @@
 package com.example.itunessearch;
 
 public class ListItem {
-    private  String head;
-    private String desc;
-    private  String img;
+    private  String head,desc,img,longDesc;
 
-    public ListItem(String head, String desc, String img) {
+    public ListItem(String head, String desc, String img, String longDesc) {
         this.head = head;
         this.desc = desc;
         this.img = img;
+        this.longDesc = longDesc;
     }
 
     public String getHead() {
@@ -19,7 +18,10 @@ public class ListItem {
         return desc;
     }
 
-    public String getİmg() {
+    public String getImg() {
         return img;
+    }
+    public String getLongDesc() {
+        return longDesc;
     }
 }

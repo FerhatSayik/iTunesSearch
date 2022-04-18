@@ -2719,6 +2719,7 @@ int id ifRoom 0x7f0800d2
 int id ignore 0x7f0800d3
 int id ignoreRequest 0x7f0800d4
 int id image 0x7f0800d5
+int id imageHeader 0x7f0801e0
 int id immediateStop 0x7f0800d6
 int id included 0x7f0800d7
 int id info 0x7f0800d8
@@ -2729,6 +2730,7 @@ int id item1 0x7f0800dc
 int id item2 0x7f0800dd
 int id item3 0x7f0800de
 int id item4 0x7f0800df
+int id itemLayout 0x7f0801e1
 int id item_touch_helper_previous_elevation 0x7f0800e0
 int id jumpToEnd 0x7f0800e1
 int id jumpToStart 0x7f0800e2
@@ -2742,6 +2744,7 @@ int id line3 0x7f0800e9
 int id linear 0x7f0800ea
 int id listMode 0x7f0800eb
 int id list_item 0x7f0800ec
+int id lngDec 0x7f0801e2
 int id masked 0x7f0800ed
 int id match_constraint 0x7f0800ee
 int id match_parent 0x7f0800ef
@@ -3070,6 +3073,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_item 0x7f0b0075
 int layout activity_main 0x7f0b001c
 int layout custom_dialog 0x7f0b001d
 int layout design_bottom_navigation_item 0x7f0b001e

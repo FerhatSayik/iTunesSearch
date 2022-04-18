@@ -9,12 +9,17 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id header_title
 id image
+id imageHeader
+id itemLayout
+id lngDec
 id recyclerView
 id srchButton
 id text
 id textViewDesc
 id textViewHead
+layout activity_item
 layout activity_main
 layout list_item
 mipmap ic_launcher

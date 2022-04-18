@@ -15,7 +15,7 @@
 11-->C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:7:22-64
 12
 13    <application
-13-->C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:9:5-25:19
+13-->C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:9:5-26:19
 14        android:allowBackup="true"
 14-->C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:10:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -49,28 +49,31 @@
 29-->C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:22:27-74
 30            </intent-filter>
 31        </activity>
-32
-33        <provider
-33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-34            android:name="androidx.startup.InitializationProvider"
-34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-35            android:authorities="com.example.itunessearch.androidx-startup"
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-36            android:exported="false" >
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-37            <meta-data
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-38                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-39                android:value="androidx.startup" />
-39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-40            <meta-data
-40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jarvis\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-41                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jarvis\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-42                android:value="androidx.startup" />
-42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jarvis\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-43        </provider>
-44    </application>
-45
-46</manifest>
+32        <activity android:name="com.example.itunessearch.ActivityItem" />
+32-->C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:25:9-49
+32-->C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:25:19-47
+33
+34        <provider
+34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+35            android:name="androidx.startup.InitializationProvider"
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+36            android:authorities="com.example.itunessearch.androidx-startup"
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+37            android:exported="false" >
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+38            <meta-data
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+39                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+40                android:value="androidx.startup" />
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+41            <meta-data
+41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jarvis\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+42                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jarvis\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+43                android:value="androidx.startup" />
+43-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Jarvis\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+44        </provider>
+45    </application>
+46
+47</manifest>

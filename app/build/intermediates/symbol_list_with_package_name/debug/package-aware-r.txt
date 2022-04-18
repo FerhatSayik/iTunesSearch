@@ -2720,6 +2720,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageHeader
 id immediateStop
 id included
 id info
@@ -2730,6 +2731,7 @@ id item1
 id item2
 id item3
 id item4
+id itemLayout
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -2743,6 +2745,7 @@ id line3
 id linear
 id listMode
 id list_item
+id lngDec
 id masked
 id match_constraint
 id match_parent
@@ -3071,6 +3074,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_item
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item

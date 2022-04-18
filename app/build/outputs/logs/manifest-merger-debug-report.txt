@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\Jarvis\.gradle\caches\transforms-3\8c8bd08bd5ab439882315c15d3205b6b\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Jarvis\.gradle\caches\transforms-3\61b09c254559981a9a7bec3250cb1b37\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Jarvis\.gradle\caches\transforms-3\f791586eb8e3cddcf33fb36842d7675a\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
@@ -44,20 +44,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Jarvis\.gradle\c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\9f24011717b021bac9ee09874fd0df37\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Jarvis\.gradle\caches\transforms-3\6abfac59d263b6c8870828beb848f440\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Jarvis\.gradle\caches\transforms-3\a9e9e56cd500525808c19a605e367b6a\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:2:11-69
@@ -66,7 +66,7 @@ ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:9:5-25:19
+ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:9:5-26:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\Jarvis\.gradle\caches\transforms-3\8c8bd08bd5ab439882315c15d3205b6b\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\Jarvis\.gradle\caches\transforms-3\8c8bd08bd5ab439882315c15d3205b6b\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Jarvis\.gradle\caches\transforms-3\61b09c254559981a9a7bec3250cb1b37\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -111,6 +111,10 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
 		ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.example.itunessearch.ActivityItem
+ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:25:9-49
+	android:name
+		ADDED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml:25:19-47
 uses-sdk
 INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Jarvis\AndroidStudioProjects\iTunesSearch\app\src\main\AndroidManifest.xml

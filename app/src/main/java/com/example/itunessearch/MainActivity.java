@@ -83,7 +83,8 @@ public class MainActivity extends AppCompatActivity {
                                             ListItem item = new ListItem(
                                                     o.getString("trackName"),
                                                     o.getString("kind"),
-                                                    o.getString("artworkUrl100")
+                                                    o.getString("artworkUrl100"),
+                                                    o.getString(("longDescription"))
                                             );
                                             listItems.add(item);
                                         }
